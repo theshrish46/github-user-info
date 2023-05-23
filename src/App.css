@@ -10,7 +10,8 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
+    -webkit-animation: App-logo-spin infinite 20s linear;
+}
 }
 
 .App-header {
@@ -35,4 +36,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.searchbar-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.results {
+  width: 80%;
+  margin: 1rem auto;
+}
+.results > p {
+  font-size: 1.75rem;
+}
+
+form {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.input-tag {
+  width: 80%;
+  margin: 0rem auto;
+  height: 3rem;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+  outline: none;
+  border: none;
+  caret: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.input-tag::placeholder {
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: hack;
 }
