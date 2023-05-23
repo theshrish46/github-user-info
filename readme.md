@@ -1,0 +1,1 @@
+# This is a simple project built using React. With this project you can browse different users throughout the GitHub.
