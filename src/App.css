@@ -11,7 +11,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
     -webkit-animation: App-logo-spin infinite 20s linear;
-}
+  }
 }
 
 .App-header {
@@ -87,9 +87,9 @@ li {
 
 .info {
   border: 2px solid red;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: start;
 }
 
 .avatar {
@@ -102,6 +102,22 @@ li {
   -o-border-radius: 50%;
 }
 
-.username, .userfollower, .userfollowing {
+.username {
   font-size: 1.5rem;
+  grid-row: 2 / 3;
+}
+.engage {
+  grid-row: 3 / 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location {
+  grid-row: 4 / 5;
+}
+.userfollower,
+.userfollowing,
+.location {
+  font-size: 1.25rem;
 }
