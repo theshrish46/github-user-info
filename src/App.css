@@ -79,3 +79,29 @@ form {
   font-weight: 100;
   font-family: hack;
 }
+
+li {
+  list-style: none;
+  border: 2px dashed green;
+}
+
+.info {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.avatar {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.username, .userfollower, .userfollowing {
+  font-size: 1.5rem;
+}
