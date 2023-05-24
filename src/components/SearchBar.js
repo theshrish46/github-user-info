@@ -9,8 +9,8 @@ const SearchBar = () => {
             <div className='searchbar-cont'>
                 <h1 className='search-head'>Please enter the Name</h1>
                 <form>
-                    <label className='label-tag' htmlFor="username"></label>
-                    <input className='input-tag'
+                    <label className='label-tag' htmlFor="name"></label>
+                    <input id='name' className='input-tag'
                         type="text" placeholder='Enter a name to search'
                         onChange={(event) => setUsername(event.target.value)} />
                 </form>
