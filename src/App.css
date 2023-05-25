@@ -90,21 +90,21 @@ form {
 
 li {
   list-style: none;
-  border: 2px dashed green;
+/*   border: 2px dashed green; */
 }
 
 .info {
   height: 50vh;
   width: 100%;
-  border: 2px solid red;
+/*   border: 2px solid red; */
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-items: start;
 }
 
 .avatar {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
