@@ -32,7 +32,14 @@ const GithubUser = ({ username }) => {
                             <strong>{user.location}</strong>
                             </li>
 
-                            <li>{user.bio}</li>
+                            <li className='bio'>Bio: {user.bio}</li>
+
+                            <li className='blog'>Blog: {user.blog}</li>
+
+                            <li className='repos'>Repos: {user.public_repos}</li>
+
+                            <li className='twitter'>Twitter: {user.twitter_username}</li>
+
                         </div>
                     </ul>
                 )

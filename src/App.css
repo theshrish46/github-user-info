@@ -32,10 +32,18 @@
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
-  }
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
   to {
     transform: rotate(360deg);
-  }
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
 }
 
 .searchbar-cont {
@@ -86,6 +94,8 @@ li {
 }
 
 .info {
+  height: 50vh;
+  width: 100%;
   border: 2px solid red;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -120,4 +130,18 @@ li {
 .userfollowing,
 .location {
   font-size: 1.25rem;
+}
+
+.bio {
+  font-size: 1.5rem;
+  font: cursive;
+}
+
+.blog {
+  font-size: 1.5rem;
+}
+
+.repos {
+  font-size: 1.5rem;
+  font-family: cursive;
 }
